@@ -1,0 +1,57 @@
+h1 {
+  color: rgb(215, 89, 89);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  height: 28px;
+  line-height: 28px;
+  text-align: left;
+  margin-top: 5px;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li {
+  color: rgb(251, 251, 251);
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19.3px;
+  text-align: 1;
+}
+ul {
+  margin: 0 0 10;
+  padding: 0;
+}
+.weather-border {
+  border: 2px solid #00b5b8;
+  padding: 14px;
+  margin: 20px;
+  border-radius: 15px;
+  max-width: 925px;
+  margin: auto;
+  background: linear-gradient(
+    60deg,
+    #3d3393 0%,
+    #2b76b9 37%,
+    #2cacd1 65%,
+    #35eb93 100%
+  );
+}
+.temp {
+  color: rgb(33, 73, 193);
+  font-family: "Google Sans", Roboto, arial, sans-serif;
+  font-size: 64px;
+  font-stretch: 100%;
+  font-weight: 400;
+  font-style: normal;
+  height: auto;
+  line-height: 1px;
+  text-align: left;
+}
+.weather-search {
+  margin-bottom: 15px;
+}
+.btn-group {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
