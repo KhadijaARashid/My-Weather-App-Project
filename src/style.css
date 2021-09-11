@@ -75,3 +75,8 @@ h5 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   margin-right: 10px;
 }
+.search-form {
+  max-width: 500px;
+  padding: 0px;
+  margin-right: 25px;
+}

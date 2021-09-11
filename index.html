@@ -32,7 +32,7 @@
             </div>
         <div class="col-3">
           <input type ="submit" 
-          value="search" 
+          value="Search" 
           class="form-control btn btn-success shadow"/>
         </div>
         
@@ -46,27 +46,31 @@
         </ul>
         <div class="row">
           <div class="col-6" id="currentW">
+            <div class="weather-temperature">
         
               <img
                 src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-                alt="sun"
-              />
-           
-                <span class="temperature" id ="temperature"> </span>°F | <a href="#">°C</a>
+                alt="sun"  id="icon" class="float-left" />
+             <div class="float-left">
+               <strong id="temperature"></strong><span class="units"> °C</span>
+                </div>
+                </div>
               </div>
               <div class="col-6" id="current-data">
+                
                 <ul>
-                  <li >precipitation: <span id="precipitation"></span></li>
-                  <li >humidity: <span id ="humidity"></span></li>
-                  <li >wind: <span id="wind"></span></li>
+                  <li >Humidity: <span id ="humidity"></span></li>
+                  <li >Wind: <span id="wind"></span></li>
                 </ul>
                 <div class="btn-group" role="group" aria-label="Basic example">
                     <button type="button" class="btn btn-success shadow-sm">Temperature</button>
-                    <button type="button" class="btn btn-success shadow-sm">Precipitation</button>
+  
                     <button type="button" class="btn btn-success shadow-sm">Wind</button>
+                  </div>
                   </div>
               </div>
             </div>
+          </div>
           </div>
         </div>
       </div>
