@@ -1,6 +1,7 @@
 // Date and time
 //Date and times
-function formatDate(date) {
+function formatDate(timestamp) {
+  let date = new Date(timestamp);
   let hour = date.getHours();
   if (hour < 10) {
     hour = `0${date.getHours()}`;

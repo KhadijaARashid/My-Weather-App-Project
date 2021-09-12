@@ -30,7 +30,7 @@ ul {
   padding: 20px;
   margin: 40px auto;
   border-radius: 15px;
-  max-width: 925px;
+  max-width: 525px;
   background: linear-gradient(
     60deg,
     #3d3393 0%,
@@ -63,7 +63,7 @@ h5 {
   color: white;
   position: relative;
   font-size: 15px;
-  top: -30px;
+  top: -42px;
 }
 .float-left {
   font-size: 75px;
