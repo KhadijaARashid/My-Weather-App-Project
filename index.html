@@ -17,66 +17,60 @@
   <body>
     <div class="container">
       <div class="weather-border">
-        <form class ="search-form" id="search-form">
-          <div class ="row">
-            <div class = "col-9">
-          <input 
-                 type ="search" 
-                       id="city-input"
-                          placeholder="Type a city"
-                              autofocus= "on"
-                                 autocomplete="off"
-                                  class="form-control shadow-sm"
-          
-          />
+        <form class="search-form" id="search-form">
+          <div class="row">
+            <div class="col-9">
+              <input
+                type="search"
+                id="city-input"
+                placeholder="Type a city"
+                autofocus="on"
+                autocomplete="off"
+                class="form-control shadow-sm"
+              />
             </div>
-        <div class="col-3">
-          <input type ="submit" 
-          value="Search" 
-          class="form-control btn btn-success shadow"/>
-        </div>
-        
-      </div>
+            <div class="col-3">
+              <input
+                type="submit"
+                value="Search"
+                class="form-control btn btn-success shadow"
+              />
+            </div>
+          </div>
         </form>
-        
-        <h1 id ="city"></h1>
+        <h1 id="city"></h1>
         <ul>
           <li id="date"></li>
           <li id="description"></li>
         </ul>
         <div class="row">
-          <div class="col-6" id="currentW">
+          <div class="col-6" id="currentWeather">
             <div class="weather-temperature">
-        
               <img
-                src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-                alt="sun"  id="icon" class="float-left" />
-             <div class="float-left">
-               <strong id="temperature"></strong><span class="units"> °C</span>
-                </div>
-                </div>
-              </div>
-              <div class="col-6" id="current-data">
-                
-                <ul>
-                  <li >Humidity: <span id ="humidity"></span></li>
-                  <li >Wind: <span id="wind"></span></li>
-                </ul>
-                <div class="btn-group" role="group" aria-label="Basic example">
-                    <button type="button" class="btn btn-success shadow-sm">Temperature</button>
-  
-                    <button type="button" class="btn btn-success shadow-sm">Wind</button>
-                  </div>
-                  </div>
+                src="https://openweathermap.org/img/wn/01d@2x.png"
+                alt="sun"
+                id="icon"
+                class="float-left"
+              />
+              <div class="float-left">
+                <strong id="temperature"></strong><span class="units"> °C</span>
               </div>
             </div>
           </div>
+          <div class="col-6" id="current-data">
+            <ul>
+              <li>Humidity: <span id="humidity"></span></li>
+              <li>Wind: <span id="wind"></span></li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
     <h5>
-    <a href="https://github.com/KhadijaARashid/My-Weather-App-Project">Open Source code by Khadija A. Rashid</a></h5>
+      <a href="https://github.com/KhadijaARashid/My-Weather-App-Project"
+        >Open Source code by Khadija A. Rashid</a
+      >
+    </h5>
     <script src="app.js"></script>
   </body>
 </html>
